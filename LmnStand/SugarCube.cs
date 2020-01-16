@@ -4,11 +4,24 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LMNStand
+namespace LmnStand
 {
     public class SugarCube
     {
-        public string name;
-        public int quantitiy;
+        public void SugarCubes() 
+        {
+            string name = "Sugar Cube";
+        
+        
+        
+        }
+
+
+
+
+
+
+
+
     }
 }

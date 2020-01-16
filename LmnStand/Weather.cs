@@ -4,10 +4,11 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LMNStand
+namespace LmnStand
 {
     public class Weather
     {
+<<<<<<< HEAD:LMNStand/Weather.cs
         public int temperature;
         private List<string> weatherconditions;
         public string predictedforecast;
@@ -22,6 +23,8 @@ namespace LMNStand
             weatherconditions.Add(" Overcast");
         }
        
+=======
+>>>>>>> 85c781d43dbc54d961e6d133a81792d0109c8ff4:LmnStand/Weather.cs
     }
     
 }

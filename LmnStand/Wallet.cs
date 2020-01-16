@@ -4,14 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LMNStand
+namespace LmnStand
 {
-    public class Cup
+    class Wallet
     {
-
-        public string name;
-        public int quantity;
     }
-
-
 }
