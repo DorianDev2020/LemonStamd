@@ -6,7 +6,24 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    class Weather
+    public class Weather
     {
+
+        public int temperature;
+        private List<string> weatherconditions;
+        public string predictedforecast;
+
+        public Weather()
+        {
+            weatherconditions = new List<string>();
+            weatherconditions.Add("Rain");
+            weatherconditions.Add("Cloudy");
+            weatherconditions.Add("Windy");
+            weatherconditions.Add("Overcast");
+            weatherconditions.Add("Sunny");
+        }
+       
+
     }
+    
 }
