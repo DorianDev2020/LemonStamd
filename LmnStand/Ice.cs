@@ -6,20 +6,14 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class Ice 
+    public class Ice : Item      //PARENT CLASS (Inheritance)
     {
 
-        public void Ice() 
-        {
+        public override Ice() 
+        {                           //CONSTRUCTOR
             string name = "Ice";
         
-       
         }
-
-
-
-
-
 
     }
 }

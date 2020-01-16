@@ -6,24 +6,14 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-   public abstract class Item
+   public abstract class Item    //PARENT CLASS (Inheritance)
     {
+        //MEMBER VARIABLES
+        string name;
+        int amountOf;
 
 
-        public abstract Item() 
-        {
-
-            string name;
-            int amountOf;
         
-        
-        }
-
-
-
-
-
-
 
     }
 }

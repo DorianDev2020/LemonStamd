@@ -8,5 +8,18 @@ namespace LmnStand
 {
     class Customer
     {
+
+        public void Customer()
+        {
+        
+        
+        
+        
+        }
+
+
+
+
+
     }
 }
