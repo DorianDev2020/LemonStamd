@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LMNStand
 {
-    class Day
+    public class Day
     {
 
 
