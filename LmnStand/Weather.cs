@@ -6,24 +6,34 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class Weather
+    class Weather
     {
+        Random random;
 
-        public int temperature;
-        private List<string> weatherconditions;
-        public string predictedforecast;
-
+        public int Temperature;
+        public int TodayTemperature;
+        public string WeatherTypes;
+        public string Forecast;
         public Weather()
         {
-            weatherconditions = new List<string>();
-            weatherconditions.Add("Rain");
-            weatherconditions.Add("Cloudy");
-            weatherconditions.Add("Windy");
-            weatherconditions.Add("Overcast");
-            weatherconditions.Add("Sunny");
+            random = new Random();
+            TodayTemperature = 0;
+            Forecast = "";
         }
-       
+        public void GetTodayTemperature()
+        {
 
+            Temperature = random.Next(50, 90);
+            TodayTemperature = Temperature;
+        }
+        public void GetForecast()
+        {
+            List<string> TypesOfWeather = new List<string>();
+            TypesOfWeather.Add(" Sunny");
+            TypesOfWeather.Add(" Rainy");
+            TypesOfWeather.Add(" Cloudy");
+            WeatherTypes = TypesOfWeather[random.Next(0, 2)];
+            Forecast = WeatherTypes;
+        }
     }
-    
 }
