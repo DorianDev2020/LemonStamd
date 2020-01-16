@@ -6,7 +6,10 @@ using System.Threading.Tasks;
 
 namespace LMNStand
 {
-    class IceCube
+    public class IceCube
     {
+        public string name;
+        public int quantity;
     }
+
 }

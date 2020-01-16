@@ -8,5 +8,7 @@ namespace LMNStand
 {
     class Weather
     {
+
+
     }
 }

@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LMNStand
 {
-    class SugarCube
+    public class SugarCube
     {
+        public string name;
+        public int quantitiy;
     }
 }

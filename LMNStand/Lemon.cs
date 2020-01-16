@@ -6,7 +6,15 @@ using System.Threading.Tasks;
 
 namespace LMNStand
 {
-    class Lemon
+    public class Lemon
     {
+        public List<string> lemons;
+        public string name;
+        public int quantitiy;
     }
+    
+    
+    
+
+    
 }

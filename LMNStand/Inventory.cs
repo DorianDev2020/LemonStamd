@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace LMNStand
 {
-    class Inventory
+    public class Inventory 
     {
+        Lemon lemon = new Lemon();
+        Cup cup = new Cup();
+        IceCube icecube = new IceCube();
+        SugarCube sugarcube = new SugarCube();
     }
 }

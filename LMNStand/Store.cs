@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace LMNStand
 {
-    class Store
+    public class Store
     {
+
+
     }
 }

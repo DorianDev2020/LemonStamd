@@ -6,7 +6,12 @@ using System.Threading.Tasks;
 
 namespace LMNStand
 {
-    class Cup
+    public class Cup
     {
+
+        public string name;
+        public int quantity;
     }
+
+
 }
