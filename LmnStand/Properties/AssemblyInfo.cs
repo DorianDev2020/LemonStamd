@@ -5,11 +5,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("LMNStand")]
+[assembly: AssemblyTitle("LmnStand")]
 [assembly: AssemblyDescription("")]
 [assembly: AssemblyConfiguration("")]
 [assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("LMNStand")]
+[assembly: AssemblyProduct("LmnStand")]
 [assembly: AssemblyCopyright("Copyright ©  2020")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
@@ -20,7 +20,7 @@ using System.Runtime.InteropServices;
 [assembly: ComVisible(false)]
 
 // The following GUID is for the ID of the typelib if this project is exposed to COM
-[assembly: Guid("5a3bd515-495a-4867-b2e7-2f4dd0746b3f")]
+[assembly: Guid("9330efb1-b8d7-43a4-bff1-ca822e6d4dc2")]
 
 // Version information for an assembly consists of the following four values:
 //

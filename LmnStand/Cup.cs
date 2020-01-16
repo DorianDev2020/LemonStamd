@@ -4,14 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LMNStand
+namespace LmnStand
 {
     public class Cup
     {
+        public void Cups() 
+        {
+            string name = "Cup";
+        
+        
+        
+        }
 
-        public string name;
-        public int quantity;
+
+
+
+
+
     }
-
-
 }

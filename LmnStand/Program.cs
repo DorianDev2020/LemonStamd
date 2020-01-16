@@ -4,11 +4,12 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LMNStand
+namespace LmnStand
 {
-    public class Store
+    class Program
     {
-
-
+        static void Main(string[] args)
+        {
+        }
     }
 }

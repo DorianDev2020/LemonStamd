@@ -4,12 +4,22 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace LMNStand
+namespace LmnStand
 {
-    class Program
+    public class Ice 
     {
-        static void Main(string[] args)
+
+        public void Ice() 
         {
+            string name = "Ice";
+        
+       
         }
+
+
+
+
+
+
     }
 }
