@@ -6,7 +6,8 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    class Pitcher
+    public class Pitcher
     {
+
     }
 }

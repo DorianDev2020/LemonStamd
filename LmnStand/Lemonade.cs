@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    
-    
-        public class Player
-        {
-           
-        }
+    public class Lemonade
+    {
 
-    
+    }
 }

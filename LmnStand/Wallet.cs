@@ -8,5 +8,6 @@ namespace LmnStand
 {
     class Wallet
     {
+
     }
 }

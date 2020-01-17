@@ -8,7 +8,8 @@ namespace LmnStand
 {
     public class SugarCube : Item    //PARENT CLASS (Inheritance)
     {
-        public override SugarCubes() 
+        public string name;
+        public void SugarCubes() 
         {                                   //CONSTRUCTOR
             string name = "Sugar Cube";
         

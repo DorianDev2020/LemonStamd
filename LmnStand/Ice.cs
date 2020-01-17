@@ -8,11 +8,11 @@ namespace LmnStand
 {
     public class Ice : Item      //PARENT CLASS (Inheritance)
     {
+        public string name;
 
-        public override Ice() 
+        public void ice() 
         {                           //CONSTRUCTOR
             string name = "Ice";
-        
         }
 
     }

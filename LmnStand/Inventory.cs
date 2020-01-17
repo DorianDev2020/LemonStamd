@@ -7,8 +7,9 @@ using System.Threading.Tasks;
 namespace LmnStand
 {
     public class Inventory
-    {                                       //ADD TO INVENTORY METHOD
-        public void AddLemonsToInventory()
+    {        
+      
+        public void AddLemonsToInventory() //ADD TO INVENTORY METHOD
         {
             for (int i = 0; i <lemons; i++)
 			{
