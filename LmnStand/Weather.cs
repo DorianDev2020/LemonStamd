@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    class Weather
+    public class Weather
     {
         Random random;
 

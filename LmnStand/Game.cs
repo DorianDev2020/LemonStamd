@@ -8,18 +8,7 @@ namespace LmnStand
 {
     class Game
     {
-
-
-
-
-
-
-
-
-
-
-
-
+        
 
 
 
