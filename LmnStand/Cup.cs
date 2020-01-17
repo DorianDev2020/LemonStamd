@@ -6,12 +6,8 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class Cup : Item      //PARENT CLASS (Inheritance)
+    public class Cup       
     {
-        public override Cups() 
-        {                       
-            string name = "Cup";        //CONSTRUCTOR
-        
-        }
+       
     }
 }

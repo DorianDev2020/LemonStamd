@@ -6,13 +6,8 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class Lemon : Item    //PARENT CLASS (Inheritance)
+    public class Lemon
     {
-        public override Lemons() 
-        {                                   //CONSTRUCTOR
-            string name = "Lemon";
-        
-        }
 
     }
 }

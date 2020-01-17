@@ -14,8 +14,6 @@ namespace LmnStand
 			{
                 Lemon lemon = new Lemon();
                 lemons.AddToInventory(lemon);
-
-
 			}
         
         }

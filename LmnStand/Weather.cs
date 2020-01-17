@@ -14,13 +14,13 @@ namespace LmnStand
         public int TodayTemperature;
         public string WeatherTypes;
         public string Forecast;
-        public Weather()
+        public Weather() //Member Variables
         {
             random = new Random();
             TodayTemperature = 0;
             Forecast = "";
         }
-        public void GetTodayTemperature()
+        public void GetTodayTemperature() // Method For Random Temperature 
         {
 
             Temperature = random.Next(50, 90);
@@ -28,7 +28,7 @@ namespace LmnStand
         }
         public void GetForecast()
         {
-            List<string> TypesOfWeather = new List<string>();
+            List<string> TypesOfWeather = new List<string>(); // Method For Random Forecast
             TypesOfWeather.Add(" Sunny");
             TypesOfWeather.Add(" Rainy");
             TypesOfWeather.Add(" Cloudy");
