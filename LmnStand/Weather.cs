@@ -9,7 +9,6 @@ namespace LmnStand
     public class Weather
     {
         Random random;
-
         public int Temperature;
         public int TodayTemperature;
         public string WeatherTypes;
@@ -22,7 +21,6 @@ namespace LmnStand
         }
         public void GetTodayTemperature() // Method For Random Temperature 
         {
-
             Temperature = random.Next(50, 90);
             TodayTemperature = Temperature;
         }
