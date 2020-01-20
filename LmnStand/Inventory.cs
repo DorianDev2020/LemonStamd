@@ -6,91 +6,84 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-<<<<<<< HEAD
+
     public class Inventory
     {
-        public string name;
-        public string name;
-        public void AddLemonsToInventory() //ADD TO INVENTORY METHOD
-=======
-    public class Inventory : Item
-    {
-        
-        public List<Lemon> lemons;
-        public List<Cup> cups;
-        public List<SugarCube> sugarCubes;
-        public List<IceCube> iceCubes;
-
-        public Inventory() 
->>>>>>> 79349588c155bbff91662e27a6b5bb1cde088567
+        public List<Lemon> lemon;
+        public List<SugarCube> sugar;
+        public List<IceCube> ice;
+        public List<Pitcher> pitcher;
+        public int lemonadeCup;
+        public Inventory()
         {
-            
-        
+            lemon = new List<Lemon>();
+            sugar = new List<SugarCube>();
+            ice = new List<IceCube>();
+            pitcher = new List<Pitcher>();
+            lemonadeCup = 0;
+        }
+        public void ResetInventory()
+        {
+            lemon.Clear();
+            sugar.Clear();
+            ice.Clear();
+            pitcher.Clear();
         }
 
-<<<<<<< HEAD
-         public void AddSugarCubesToInventory()
-         {
-            for (int i = 0; i <SugarCube>; i++)
-			{
-                SugarCube sugarCube = new SugarCube();
-                SugarCubes.AddToInventory(sugarCube);
-=======
->>>>>>> 79349588c155bbff91662e27a6b5bb1cde088567
-
-        public void AddToInventory() 
+        public void DisplayInventory()
         {
-            //Lemon lemons = new Lemon(100);
-            //lemons.AddLemon(Lemons);
-
-           
-
-
-
-
-
-
-
+            Console.WriteLine($" You Have {lemon.Count} Lemon");
+            Console.WriteLine($" You Have {sugar.Count} Sugar Cube");
+            Console.WriteLine($" You Have {ice.Count} Ice Cube");
+            Console.WriteLine($" You Have {pitcher.Count} Pitcher");
+            GetPitcherToFiveCup();
+            Console.WriteLine($" You Have {lemonadeCup} Cups Fill With Lemonade");
+            Console.WriteLine("\n Press Enter To Continue");
+            Console.ReadLine();
         }
-
-        public void RemoveFromInventory() 
+        public void DisplayPitcherMade()
         {
-
-        
-        
-        
-        
-        
-        
-        
-        
+            Console.WriteLine($"\n You Have {pitcher.Count} Pitcher");
+            Console.ReadLine();
         }
-
-        
-
-       
-
-
-                                                    
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+        public void AddLemon()
+        {
+            lemon.Add(new Lemon());
+        }
+        public void AddSugar()
+        {
+            sugar.Add(new SugarCube());
+        }
+        public void AddIce()
+        {
+            ice.Add(new IceCube());
+        }
+        public void AddPitcher()
+        {
+            pitcher.Add(new Pitcher());
+        }
+        public void MakePitcher(Recipe recipe)
+        {
+            while (lemon.Count >= recipe.recipeLemon && sugar.Count >= recipe.recipeSugar && ice.Count >= recipe.recipeIce)
+            {
+                for (int a = 0; a < recipe.recipeLemon; a++)
+                {
+                    lemon.RemoveAt(0);
+                }
+                for (int b = 0; b < recipe.recipeSugar; b++)
+                {
+                    sugar.RemoveAt(0);
+                }
+                for (int c = 0; c < recipe.recipeIce; c++)
+                {
+                    ice.RemoveAt(0);
+                }
+                AddPitcher();
+            }
+        }
+        public void GetPitcherToFiveCup()
+        {
+            lemonadeCup = pitcher.Count * 5;
+        }
     }
 }

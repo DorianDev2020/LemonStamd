@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    class Recipe
+    public class Recipe
     {
         public int recipeLemon;
         public int recipeSugar;
