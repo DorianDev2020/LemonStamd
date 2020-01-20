@@ -15,8 +15,7 @@ namespace LmnStand
             
             
             
-            //CONSTRUCTOR
-      
+            
         }
 
 
