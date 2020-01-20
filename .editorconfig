@@ -5,3 +5,6 @@ dotnet_diagnostic.IDE0051.severity = silent
 
 # IDE0028: Simplify collection initialization
 dotnet_style_collection_initializer = true:silent
+
+# IDE0054: Use compound assignment
+dotnet_style_prefer_compound_assignment = true:silent

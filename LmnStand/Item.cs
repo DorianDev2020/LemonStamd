@@ -10,12 +10,17 @@ namespace LmnStand
     {
         //MEMBER VARIABLE
 
-        public string name;
+        string name;
+        int amountOf;
+
+
+        
       
 
        
 
         
+
 
     }
 }

@@ -8,14 +8,9 @@ namespace LmnStand
 {
     public class Lemon 
     {
-        
-
         public Lemon()
         {
              
-        }
-
-
-        
+        }   
     }
 }
