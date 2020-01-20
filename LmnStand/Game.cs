@@ -8,7 +8,12 @@ namespace LmnStand
 {
     class Game
     {
+
         
+        private readonly Player player;
+        private readonly int currentDay;
+        private readonly List<Day> days;
+
 
 
 

@@ -5,6 +5,11 @@ VisualStudioVersion = 16.0.29613.14
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LmnStand", "LmnStand\LmnStand.csproj", "{9330EFB1-B8D7-43A4-BFF1-CA822E6D4DC2}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{11103105-8A9B-423D-9511-2F289EA9D593}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -20,6 +25,6 @@ Global
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {409A3733-286D-4FAC-B207-B18D5A11874D}
+		SolutionGuid = {F22BB440-781A-4C91-A77E-F4C6ECB91F32}
 	EndGlobalSection
 EndGlobal
