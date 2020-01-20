@@ -42,7 +42,7 @@ namespace LmnStand
                 Console.WriteLine("\n Please Press Enter To Continue");
                 Console.ReadLine();
             }
-            public void DisplayPitcherMade()
+            public void MakePitcher()
             {
                 Console.WriteLine($"\n You Have {pitcher.Count} Pitchers");
                 Console.ReadLine();

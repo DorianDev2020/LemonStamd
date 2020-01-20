@@ -46,6 +46,7 @@ namespace LmnStand
             if (Money <= 0)
             {
                 Console.WriteLine("You are all out of money!");
+                
             }
 
 

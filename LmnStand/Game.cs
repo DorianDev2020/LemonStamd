@@ -14,6 +14,33 @@ namespace LmnStand
         private readonly int currentDay;
         private readonly List<Day> days;
 
+        public Game() 
+        {
+        
+        
+        
+        }
+
+
+
+        public void RunGame() 
+        {
+        
+        
+        
+        
+        
+        
+        
+        
+        }
+
+
+
+
+
+
+
 
 
 
