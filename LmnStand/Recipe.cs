@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-   public abstract class Item    //PARENT CLASS (Inheritance)
+    class Recipe
     {
-        //MEMBER VARIABLES
-        string name;
-        int amountOf;
     }
 }

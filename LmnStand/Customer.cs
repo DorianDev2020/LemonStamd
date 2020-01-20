@@ -18,8 +18,5 @@ namespace LmnStand
             BuyChances = new Random();
         }
         
-        
-
-
     }
 }
