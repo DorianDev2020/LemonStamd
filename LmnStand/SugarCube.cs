@@ -6,13 +6,11 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class SugarCube : Item    //PARENT CLASS (Inheritance)
+    public class SugarCube : Item    //(Inheritance)
     {
-        public string name;
         public void SugarCubes() 
         {                                   //CONSTRUCTOR
-            string name = "Sugar Cube";
-        
+
         }
 
     }

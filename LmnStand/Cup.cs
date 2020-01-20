@@ -6,8 +6,21 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class Cup       
+    public class Cup : Item    
     {
        
+
+        public void Cups()
+        { 
+            
+            
+            
+            //CONSTRUCTOR
+        }
+
+
+
+
+
     }
 }

@@ -6,14 +6,22 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class Ice : Item      //PARENT CLASS (Inheritance)
+    public class IceCube : Item      //PARENT CLASS (Inheritance)
     {
-        public string name;
+        
 
-        public void ice() 
-        {                           //CONSTRUCTOR
-            string name = "Ice";
+        public void IceCubes() 
+        { 
+            
+            
+            
+            //CONSTRUCTOR
+      
         }
+
+
+
+
 
     }
 }

@@ -8,7 +8,7 @@ namespace LmnStand
 {
     public class Weather
     {
-        Random random;
+        readonly Random random;
         public int Temperature;
         public int TodayTemperature;
         public string WeatherTypes;

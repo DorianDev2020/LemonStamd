@@ -6,8 +6,49 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    class Wallet
+
+   
+    
+    
+    public class Wallet 
     {
+
+        private readonly double money = 200;
+        public double Money;
+
+
+        public Wallet()
+        {
+            
+
+
+
+        }
+
+       
+
+
+        public void AmountInWallet() 
+        { 
+            
+        
+        
+        
+        
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
     }
 }
