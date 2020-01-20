@@ -6,18 +6,11 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class IceCube : Item      //PARENT CLASS (Inheritance)
+    public class IceCube 
     {
-        
 
-        public void IceCubes() 
-        { 
-            
-            
-            
-            //CONSTRUCTOR
-      
-        }
+        
+     
 
 
 

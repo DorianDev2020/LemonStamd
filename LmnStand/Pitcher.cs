@@ -6,15 +6,13 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class Pitcher : Cup
+    public class Pitcher 
     {
 
         public int cupsLeftInPitcher;
 
 
-
-
-
+     
 
 
 

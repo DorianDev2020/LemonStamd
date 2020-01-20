@@ -8,17 +8,12 @@ namespace LmnStand
 {
    public abstract class Item    
     {
-        //MEMBER VARIABLES
+        //MEMBER VARIABLE
 
         public string name;
       
 
-        public void ValuesOfItem( ) 
-        {
-            
-            
-        
-        }
+       
 
         
 

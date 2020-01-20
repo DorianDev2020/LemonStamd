@@ -7,34 +7,63 @@ using System.Threading.Tasks;
 namespace LmnStand
 {
 
-   
-    
-    
-    public class Wallet 
+
+
+
+    public class Wallet
     {
 
-        private readonly double money = 200;
-        public double Money;
-
-
-        public Wallet()
+        private double money;   //field
+        public double Money    //property
         {
-            
+            get => money;
+
+            set => Money = value;
+
+
 
 
 
         }
 
-       
 
 
-        public void AmountInWallet() 
-        { 
-            
+
+        public Wallet()
+        {
+
+            this.money = 100;
+               
+
+        }
         
         
         
-        
+
+      
+        public void SetupWallet()
+        {
+            if (Money <= 0)
+            {
+                Console.WriteLine("You are all out of money!");
+            }
+
+
+            else if (Money >= 100)
+            {
+                Console.WriteLine("");
+            }
+
+            else if (Money <= 100)
+            {
+                
+            }
+
+
+
+
+
+
         }
 
 

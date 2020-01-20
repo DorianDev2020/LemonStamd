@@ -57,6 +57,7 @@
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Recipe.cs" />
+    <Compile Include="Store.cs" />
     <Compile Include="SugarCube.cs" />
     <Compile Include="Wallet.cs" />
     <Compile Include="Weather.cs" />
