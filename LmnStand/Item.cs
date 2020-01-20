@@ -10,8 +10,8 @@ namespace LmnStand
     {
         //MEMBER VARIABLE
 
-        string name;
-        int amountOf;
+        readonly string name;
+        readonly int amountOf;
 
 
         

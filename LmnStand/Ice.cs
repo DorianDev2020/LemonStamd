@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class IceCube 
+    public class IceCube : Item
     {
 
-<<<<<<< HEAD
+
         
      
-=======
+
         public void IceCubes() 
         { 
             
@@ -20,7 +20,7 @@ namespace LmnStand
             
             
         }
->>>>>>> 8a13276c7e59f99c3cccf0a77878666a2a2f4874
+
 
 
 

@@ -9,48 +9,23 @@ namespace LmnStand
     public class Recipe
     {
         public int recipeLemon;
-        public int recipeSugar;
-        public int recipeIce;
+        public int recipeSugarCube;
+        public int recipeIceCube;
+       
         public Recipe()
         {
             recipeLemon = 0;
-            recipeSugar = 0;
-            recipeIce = 0;
+            recipeSugarCube = 0;
+            recipeIceCube = 0;
         }
         public void GetRecipe()
         {
-            Console.WriteLine($"\n {recipeLemon} Lemon, {recipeSugar} Sugar Cube, and {recipeIce} Ice Cube Will Be Equal To A Pitcher With 1 Pitcher Equaling 5 cups");
-        }
-<<<<<<< HEAD
-
-        public void MakePitcher(Recipe recipe) 
-        {
-            while (lemon.Count >= recipe.recipeLemon && sugar.Count >= recipe.recipeIce) 
-            {
-                for (int a = 0; a < lemon; a++)
-                {
-
-                    lemon.RemoveAt(0);
-
-                }
-
-                for (int b = 0; b < sugarCube; b++)
-                {
-                    sugarCube.RemoveAt(0);
-                }
-
-                for (int c = 0; c < icecube; c++)
-                {
-                    IceCube.RemoveAt(0);
-                }
-
-
-            }
-        
-        
-        
+            Console.WriteLine($"\n {recipeLemon} Lemon, {recipeSugarCube} Sugar Cube, and {recipeIceCube} Ice Cube Will Be Equal To A Pitcher With 1 Pitcher Equaling 5 cups");
         }
 
+       
+
+          
 
 
 
@@ -63,7 +38,8 @@ namespace LmnStand
 
 
 
-=======
->>>>>>> 8a13276c7e59f99c3cccf0a77878666a2a2f4874
+
+
+
     }
 }

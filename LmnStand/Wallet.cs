@@ -13,7 +13,7 @@ namespace LmnStand
     public class Wallet
     {
 
-        private double money;   //field
+        private readonly double money;   //field
         public double Money    //property
         {
             get => money;
