@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    class UserInterface
+    public class UserInterface
     {
         public void GetWelcome()
         {
