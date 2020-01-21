@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class Customer : Inventory //Member Variables
+    public class Customer : Wallet //Member Variables
     {
         
 

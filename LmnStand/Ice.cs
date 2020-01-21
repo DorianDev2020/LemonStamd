@@ -9,10 +9,6 @@ namespace LmnStand
     public class IceCube: Item        //Inheritance 
     {
 
-
-        
-     
-
         public void IceCubes() 
         { 
             
@@ -21,6 +17,5 @@ namespace LmnStand
             
         }
 
-   
     }
 }

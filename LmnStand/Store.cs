@@ -7,23 +7,16 @@ using System.Threading.Tasks;
 namespace LmnStand
 {
 
-    public class Store : Inventory //Inheritance
+    public class Store
     {
-
-        
-            public double Lemon;
-            public double Sugar;
-            public double Ice;
-            public double LemonPriceTotal;
-            public double SugarPriceTotal;
-            public double IcePriceTotal;
-            public double TotalAllItem;
-
-
-
-
-
-        public Store()      //Contructor
+        public double Lemon;
+        public double Sugar;
+        public double Ice;
+        public double LemonPriceTotal;
+        public double SugarPriceTotal;
+        public double IcePriceTotal;
+        public double TotalAllItem;
+        public Store()
         {
             Lemon = .25;
             Sugar = .25;
@@ -33,6 +26,7 @@ namespace LmnStand
             IcePriceTotal = 0;
             TotalAllItem = 0;
         }
+
 
             public void GetStoreName(UserInterface gameInfo, Player player)
             {
@@ -45,12 +39,14 @@ namespace LmnStand
                 Console.WriteLine($" You Have {player.inventory.sugarCubes.Count} Sugar Cube");
                 Console.WriteLine($" You Have {player.inventory.iceCubes.Count} Ice Cube");
             }
+
+
         public void GoShopping(Player player, UserInterface gameInfo)
         {
             gameInfo.ToClearScreen();
             GetStoreName(gameInfo, player);
             Console.WriteLine($"\n Bank ${player.Bank.ToString("0.00")}");
-            Console.WriteLine(" What Would you like to buy?");
+            Console.WriteLine(" What will you like to buy?");
             Console.WriteLine(" [1] Lemon  [2] Sugar  [3] Ice  [4] Checkout/EXit");
             Console.Write(" Enter Number Here: ");
             string Choice = Console.ReadLine();
@@ -62,12 +58,12 @@ namespace LmnStand
                     GoShopping(player, gameInfo);
                     break;
                 case "2":
-                    Console.WriteLine("\n How Many Sugar Cubes Would you Like?");
+                    Console.WriteLine("\n How Many Sugar Cubes Would You Like?");
                     BuySugar(player);
                     GoShopping(player, gameInfo);
                     break;
                 case "3":
-                    Console.WriteLine("\n How Many Ice Cubes Would Your Like?");
+                    Console.WriteLine("\n How Many Ice Cubes Would You Like?");
                     BuyIce(player);
                     GoShopping(player, gameInfo);
                     break;
@@ -78,7 +74,7 @@ namespace LmnStand
                     Console.ReadLine();
                     break;
                 default:
-                    Console.WriteLine(" Im Sorry That's An Invalid Option");
+                    Console.WriteLine(" Please Choose A Valid Option");
                     GoShopping(player, gameInfo);
                     break;
             }
@@ -90,7 +86,7 @@ namespace LmnStand
                 int LemonAmount = int.Parse(Console.ReadLine());
                 if (player.Bank < LemonAmount * Lemon)
                 {
-                    Console.WriteLine(" Sorry Not Enough Money");
+                    Console.WriteLine(" Sorry You Do Not Have Enough Money");
                 }
                 else if (player.Bank >= LemonAmount * Lemon)
                 {
@@ -115,7 +111,7 @@ namespace LmnStand
                 int SugarAmount = int.Parse(Console.ReadLine());
                 if (player.Bank < SugarAmount * Sugar)
                 {
-                    Console.WriteLine(" Sorry Not Enough Money");
+                    Console.WriteLine(" Sorry You Do Not Have Enough Money");
                 }
                 else if (player.Bank >= SugarAmount * Sugar)
                 {
@@ -140,7 +136,7 @@ namespace LmnStand
                 int IceAmount = int.Parse(Console.ReadLine());
                 if (player.Bank < IceAmount * Ice)
                 {
-                    Console.WriteLine(" Sorry you Dont Have Enough Money :/ ");
+                    Console.WriteLine(" Sorry You Do Not Have Enough Money");
                 }
                 else if (player.Bank >= IceAmount * Ice)
                 {
@@ -163,12 +159,5 @@ namespace LmnStand
             TotalAllItem = LemonPriceTotal + SugarPriceTotal + IcePriceTotal;
             player.Cashspend = TotalAllItem + player.Cashspend;
         }
-
-
-
-
-
-
-
     }
 }

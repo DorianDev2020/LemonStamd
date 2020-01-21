@@ -6,10 +6,11 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-        
+
        
 
     public class Player 
+
     {
         public Recipe recipe;
         public Inventory inventory;
@@ -25,7 +26,7 @@ namespace LmnStand
         {
             recipe = new Recipe();
             inventory = new Inventory();
-            Bank = 0.00;
+            Bank = 15.00;
             LemonadePrice = .15;
             CashEarn = 0;
             Cashspend = 0;

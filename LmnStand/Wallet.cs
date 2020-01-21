@@ -6,12 +6,9 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-
-
-
-
     public class Wallet
     {
+
 
         private readonly double money;   //field
         public double Money    //property
@@ -64,16 +61,7 @@ namespace LmnStand
 
 
 
-
-
-
-
-
-
-
-
-
-
-
     }
+    
+    
 }

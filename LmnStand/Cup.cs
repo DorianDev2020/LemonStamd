@@ -8,6 +8,7 @@ namespace LmnStand
 {
     public class Cup  : Item  //Inheritance
     {
+
        
 
 
@@ -20,8 +21,6 @@ namespace LmnStand
             
             
         }
-
-
 
 
 

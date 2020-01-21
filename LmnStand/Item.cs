@@ -13,14 +13,5 @@ namespace LmnStand
         readonly string name;
         
 
-
-        
-      
-
-       
-
-        
-
-
     }
 }

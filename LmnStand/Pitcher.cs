@@ -6,6 +6,7 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
+
     public class Pitcher 
     {
 
@@ -26,17 +27,6 @@ namespace LmnStand
             this.PitcherOfLemonade = 30;
 
         }
-
-
-
-
-
-
-
-
-
-
-
 
 
 
