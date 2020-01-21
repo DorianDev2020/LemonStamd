@@ -50,14 +50,9 @@ namespace LmnStand
             }
 
 
-            else if (Money >= 100)
+            else if (Money == 100)
             {
                 Console.WriteLine("");
-            }
-
-            else if (Money <= 100)
-            {
-                
             }
 
 

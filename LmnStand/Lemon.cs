@@ -11,6 +11,11 @@ namespace LmnStand
         public Lemon()
         {
              
-        }   
+        }
+
+        internal static void RemoveAt(int v)
+        {
+            throw new NotImplementedException();
+        }
     }
 }

@@ -7,18 +7,62 @@ using System.Threading.Tasks;
 namespace LmnStand
 {
     public class Pitcher 
-
     {
 
+        List<ingredient> cup;
         public int cupsLeftInPitcher;
 
 
-     
+        public Pitcher() 
+        {
+        
+        
+        }
 
-
-     
-
-
-
+        public void MakePitcher() 
+        {
+            
+        
+        
+        
+        
+        
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     }
 }
+
+        
+        
+        
+        
+        
+        
+        
+        
+        
+
+     
+
+
+
+    
+

@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace LmnStand
 {
 
-    public class Inventory
+    public class Inventory 
     {
 
             public List<Lemon> lemon;
@@ -17,10 +17,11 @@ namespace LmnStand
             public int lemonadeCup;
             public Inventory()
             {
+                
                 lemon = new List<Lemon>();
                 sugar = new List<SugarCube>();
                 ice = new List<IceCube>();
-                pitcher = new List<Pitcher>();
+                pitcher = new List<Ingredient>();
                 lemonadeCup = 0;
             }
             public void ResetInventory()
@@ -70,7 +71,92 @@ namespace LmnStand
 
             }
 
+
+        public void AddingToPitcher(Recipe recipe)
+        {
+            while (lemon.Count >= recipe.recipeLemon && sugar.Count >= recipe.recipeSugarCube)
+            {
+                for (int a = 0; a < recipe.recipeSugarCube; a++)
+                {
+                    SugarCube.RemoveAt(0);
+                    
+                }
+
+                for (int b = 0; b < recipe.recipeIceCube; b++)
+                {
+                    IceCube.RemoveAt(0);
+                }
+
+                for (int c = 0; c < recipe.recipeLemon; c++)
+                {
+                    Lemon.RemoveAt(0);
+                }
+
+                Add.Pitcher();
+
+            }
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    }
     }
 
 
