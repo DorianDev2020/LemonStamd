@@ -6,8 +6,9 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    class Store
+    class Store : Player
     {
-
+       
+        
     }
 }
