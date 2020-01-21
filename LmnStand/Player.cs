@@ -6,10 +6,7 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-        
-       
-
-    public class Player : Wallet
+    public class Player : Inventory
     {
         public Recipe recipe;
         public Inventory inventory;
@@ -23,7 +20,7 @@ namespace LmnStand
         {
             recipe = new Recipe();
             inventory = new Inventory();
-            Bank = 0.00;
+            Bank = 15.00;
             LemonadePrice = .15;
             CashEarn = 0;
             Cashspend = 0;
@@ -60,7 +57,7 @@ namespace LmnStand
                     break;
             }
 
-            inventory.MakePitcher(recipe);
+            inventory.MakePitcher();
         }
         public void InputLemon()
         {
@@ -83,7 +80,7 @@ namespace LmnStand
             {
                 Console.WriteLine("\n How Many Sugar Cubes Would You Like To Use?");
                 Console.Write(" Enter Number Here: ");
-                recipe.recipeSugar = int.Parse(Console.ReadLine());
+                recipe.recipeSugarCube = int.Parse(Console.ReadLine());
                 MakeRecipeDisplay();
             }
             catch (Exception)
@@ -98,7 +95,7 @@ namespace LmnStand
             {
                 Console.WriteLine("\n How Many Ice Cubes Would You Like To Use?");
                 Console.Write(" Enter Number Here: ");
-                recipe.recipeIce = int.Parse(Console.ReadLine());
+                recipe.recipeIceCube = int.Parse(Console.ReadLine());
                 MakeRecipeDisplay();
             }
             catch (Exception)
@@ -122,7 +119,7 @@ namespace LmnStand
             gameInfo.ToClearScreen();
             gameInfo.DisplayGameTitle();
             Console.WriteLine($"\n Your Current Lemonade Price Is ${LemonadePrice.ToString("0.00")}");
-            inventory.DisplayPitcherMade();
+            inventory.MakePitcher();
             gameInfo.ToContinue();
             recipe.GetRecipe();
             Console.WriteLine(" ---------------------------------------------------------------------------------------");

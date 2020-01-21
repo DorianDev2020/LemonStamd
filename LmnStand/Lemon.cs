@@ -6,11 +6,8 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class Lemon 
+    public class Lemon : Item   //Inheritance
     {
-        public Lemon()
-        {
-             
-        }   
+        
     }
 }

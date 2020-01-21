@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    class Game
+    public class Game
     {
         public Player player;
         public Store store;
@@ -79,7 +79,7 @@ namespace LmnStand
             switch (choice)
             {
                 case "1":
-                    // start the game day
+                    // start the game d
                     gameInfo.ToClearScreen();
                     gameInfo.DisplayGameTitle();
                     day.GetTodayForecast();
@@ -93,7 +93,7 @@ namespace LmnStand
                     gameInfo.ToContinue();
                     break;
                 case "2":
-                    // method to go shopping at the store
+                    // method to shop at the store
                     store.GoShopping(player, gameInfo);
                     gameInfo.ToClearScreen();
                     DisplayMenu();
@@ -128,7 +128,5 @@ namespace LmnStand
                     break;
             }
         }
-
-
     }
 }

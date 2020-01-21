@@ -8,24 +8,10 @@ namespace LmnStand
 {
    public abstract class Item    
     {
-        //MEMBER VARIABLES
+        //MEMBER VARIABLE
 
-        string name;
-        int amountOf;
-
-
-        
-      
-
-        public void ValuesOfItem( ) 
-        {
-            
-            
-        
-        }
-
-        
-
+        readonly string name;
+        readonly int amountOf;
 
     }
 }

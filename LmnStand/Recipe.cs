@@ -9,17 +9,20 @@ namespace LmnStand
     public class Recipe
     {
         public int recipeLemon;
-        public int recipeSugar;
-        public int recipeIce;
+        public int recipeSugarCube;
+        public int recipeIceCube;
+        
+       
         public Recipe()
         {
             recipeLemon = 0;
-            recipeSugar = 0;
-            recipeIce = 0;
+            recipeSugarCube = 0;
+            recipeIceCube = 0;
+            
         }
         public void GetRecipe()
         {
-            Console.WriteLine($"\n {recipeLemon} Lemon, {recipeSugar} Sugar Cube, and {recipeIce} Ice Cube Will Be Equal To A Pitcher With 1 Pitcher Equaling 5 cups");
+            Console.WriteLine($"\n {recipeLemon} Lemon, {recipeSugarCube} Sugar Cube, and {recipeIceCube} Ice Cube Will Be Equal To A Pitcher With 1 Pitcher Equaling 5 cups");
         }
     }
 }
