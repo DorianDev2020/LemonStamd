@@ -13,9 +13,9 @@ namespace LmnStand
 
      
 
-        public void Cups()
-        { 
-            
+        public Cup()
+        {
+
             
             
             

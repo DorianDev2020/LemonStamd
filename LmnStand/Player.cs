@@ -9,7 +9,7 @@ namespace LmnStand
         
        
 
-    public class Player : Wallet
+    public class Player 
     {
         public Recipe recipe;
         public Inventory inventory;
@@ -19,6 +19,8 @@ namespace LmnStand
         public double CashEarn;
         public double Cashspend;
         public Random CashToBank;
+        public Pitcher pitcher;
+        public Wallet wallet;
         public Player()
         {
             recipe = new Recipe();
@@ -60,7 +62,7 @@ namespace LmnStand
                     break;
             }
 
-            inventory.MakePitcher();
+            //inventory.MakePitcher();          //consider move
         }
         public void InputLemon()
         {
@@ -122,7 +124,8 @@ namespace LmnStand
             gameInfo.ToClearScreen();
             gameInfo.DisplayGameTitle();
             Console.WriteLine($"\n Your Current Lemonade Price Is ${LemonadePrice.ToString("0.00")}");
-            inventory.MakePitcher();
+            //inventory.MakePitcher();
+
             gameInfo.ToContinue();
             recipe.GetRecipe();
             Console.WriteLine(" ---------------------------------------------------------------------------------------");

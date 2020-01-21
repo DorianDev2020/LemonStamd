@@ -41,9 +41,9 @@ namespace LmnStand
                 Console.WriteLine(" ---------------------");
                 Console.WriteLine($" Lemon Price ${Lemon.ToString("0.00")}  |  Sugar Cube Price ${Sugar.ToString("0.00")}  |  Ice Cube Price ${Ice.ToString("0.00")}");
                 Console.WriteLine(" ---------------------------------------------------------------------");
-                Console.WriteLine($"\n You Have {player.inventory.lemon.Count} Lemon");
-                Console.WriteLine($" You Have {player.inventory.sugar.Count} Sugar Cube");
-                Console.WriteLine($" You Have {player.inventory.ice.Count} Ice Cube");
+                Console.WriteLine($"\n You Have {player.inventory.lemons.Count} Lemon");
+                Console.WriteLine($" You Have {player.inventory.sugarCubes.Count} Sugar Cube");
+                Console.WriteLine($" You Have {player.inventory.iceCubes.Count} Ice Cube");
             }
         public void GoShopping(Player player, UserInterface gameInfo)
         {

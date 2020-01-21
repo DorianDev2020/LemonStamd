@@ -6,10 +6,8 @@ using System.Threading.Tasks;
 
 namespace LmnStand
 {
-    public class SugarCube : Item       //Inheritance
+    public class SugarCube : Item      //Inheritance
     {
-       
-
-
+        
     }
 }

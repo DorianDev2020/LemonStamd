@@ -9,44 +9,38 @@ namespace LmnStand
     public class Pitcher 
     {
 
-        List<ingredient> cup;
-        public int cupsLeftInPitcher;
 
+        public int cupsLeftInPitcher;
+        private readonly int pitcher;
+        public int PitcherOfLemonade
+        {
+            get => pitcher;
+
+            set => PitcherOfLemonade = value; 
+        
+        
+        }
 
         public Pitcher() 
         {
-        
-        
+            this.PitcherOfLemonade = 30;
+
         }
 
-        public void MakePitcher() 
-        {
-            
-        
-        
-        
-        
-        
-        }
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
     }
 }
 
